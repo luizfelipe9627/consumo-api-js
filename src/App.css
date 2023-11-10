@@ -16,7 +16,7 @@ body {
 }
 
 .introduction {
-  padding: 40px 0;
+  padding: 50px 0;
   background: linear-gradient(to right, #f12711, #f5af19);
 }
 
@@ -24,7 +24,7 @@ body {
 .introduction span {
   text-decoration: none;
   color: #fff;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .introduction span {
@@ -46,8 +46,8 @@ body {
 
 .introduction input {
   width: 100%;
-  padding: 26px;
-  padding-left: 72px;
+  padding: 20px;
+  padding-left: 66px;
   border-radius: 5px;
   background: rgba(255, 255, 255, .2);
   outline: 0;
@@ -80,6 +80,11 @@ body {
   margin-top: 60px;
   border-radius: 4px;
   cursor: pointer;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.post:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .post-user {
@@ -114,8 +119,30 @@ footer {
 
 footer p {
   color: #fff;
+  font-size: 18px;
 }
 
 footer a {
   color: #fff;
+}
+
+
+@media (max-width: 768px) {
+
+  .posts-container,
+  .introduction-container {
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 350px) {
+  .introduction-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .introduction-container div a {
+    margin-bottom: 10px;
+  }
 }

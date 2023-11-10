@@ -8,7 +8,7 @@ async function fetchData() {
     const json = await response.json();
     return json.slice(0, 10);
   } catch (error) {
-    throw new Error(error);
+    throw new Error("Erro ao buscar os dados da API");
   }
 }
 
