@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  background-color: rgba(128, 128, 128, .158);
+}
+
+.posts-container,
+.introduction-container {
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.introduction {
+  padding: 40px 0;
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+.introduction a,
+.introduction span {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.introduction span {
+  font-size: 18px;
+}
+
+.introduction-container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.introduction form {
+  display: flex;
+  margin-top: 75px;
+  position: relative;
+}
+
+.introduction input {
+  width: 100%;
+  padding: 26px;
+  padding-left: 72px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, .2);
+  outline: 0;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.introduction input::placeholder {
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.introduction button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 26px;
+  top: 0;
+  bottom: 0;
+  margin-right: 26px;
+}
+
+.introduction button img {
+  width: 20px;
+}
+
+.post {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 60px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-user {
+  display: block;
+  color: #717171;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.post-title {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.post-body {
+  font-size: 18px;
+  line-height: 32px;
+  color: #717171;
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  width: 100%;
+  background: linear-gradient(to right, #f12711, #f5af19);
+  padding: 40px;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
