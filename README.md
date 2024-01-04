@@ -2,7 +2,7 @@
 
 ![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
-<img src="https://github.com/luizfelipe9627/consumo-api-js/blob/main/src/assets/img/apresentacao.gif" alt="Apresentação do CampinhoBlog">
+<img src="https://github.com/luizfelipe9627/consumo-api-js/blob/main/src/assets/apresentacao.gif" alt="Apresentação do CampinhoBlog">
 
 ## 📄 Descrição
 CampinhoBlog como o próprio nome já diz é um blog da Campinho que simula as mais atuais noticias do mundo.
