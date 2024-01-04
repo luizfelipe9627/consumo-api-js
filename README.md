@@ -16,6 +16,8 @@ Esse projeto foi desenvolvido como atividade da CampinhoBlog para treinar o conh
 
 - `REACT.JS`
 - `CSS3`
+- `VITE.JS`
+- `ESLINT`
 
 ## 🧑‍💻 Criador
 
